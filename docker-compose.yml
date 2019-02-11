@@ -1,0 +1,18 @@
+version: '2.2'
+
+services:
+  master:
+    build: ./jmeter-master
+    container_name: master
+    tty: true # tty true make the docker image stay up even with nothing running
+    restart: "no"
+    networks:
+      - jmeter-network
+  slave:
+    build: ./jmeter-slave
+    tty: true
+    networks:
+      - jmeter-network
+networks:
+  jmeter-network:
+    driver: bridge # Consider using Overlay -> so we can bypass OS-level routing
