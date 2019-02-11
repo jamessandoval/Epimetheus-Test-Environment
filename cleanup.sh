@@ -17,3 +17,6 @@ docker rmi selenium/hub:3.141.59-gold --force
 
 # remove unused images
 docker system prune -f
+
+# Stop Everything
+docker kill $(docker ps -q)

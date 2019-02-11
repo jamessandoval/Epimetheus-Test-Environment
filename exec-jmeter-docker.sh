@@ -48,6 +48,11 @@ for filename in scripts/*.jmx; do
     eval "docker exec master ls /jmeter/reports/$NAME"
     eval "docker cp master:/jmeter/apache-jmeter-5.0/bin/report-output results/$NAME-$CURRENTDATETIME"
     eval "docker cp master:/jmeter/jmeter-log-$CURRENTDATETIME.log results/$NAME-$CURRENTDATETIME/jmeter-log-$CURRENTDATETIME.log"
+    # Compress and email results
+    zip -r results/$NAME-$CURRENTDATETIME.zip results/$NAME-$CURRENTDATETIME
+    echo "Test Results: $NAME-$CURRENTDATETIME " | mutt -s 'Test Results: $NAME-$CURRENTDATETIME' jasandov@starbucks.com -a results/$NAME-$CURRENTDATETIME.zip 
+	
+    rm results/$NAME-$CURRENTDATETIME.zip
 
 done
 
