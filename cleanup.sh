@@ -7,7 +7,7 @@ docker-compose rm
 
 docker rmi docker-jmeter-cluster_slave --force
 docker rmi docker-jmeter-cluster_master --force
-docker rmi jmeter-base --force
+#docker rmi jmeter-base --force
 
 # Cleanup hub
 
