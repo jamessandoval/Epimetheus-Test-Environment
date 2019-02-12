@@ -1,0 +1,458 @@
+2019-02-11 15:48:06,290 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2019-02-11 15:48:06,325 INFO o.a.j.JMeter: Loading user properties from: /Users/jasandov/Development/java/apache-jmeter-5.0/bin/user.properties
+2019-02-11 15:48:06,326 INFO o.a.j.JMeter: Loading system properties from: /Users/jasandov/Development/java/apache-jmeter-5.0/bin/system.properties
+2019-02-11 15:48:06,333 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2019-02-11 15:48:06,333 INFO o.a.j.JMeter: Version 5.0 r1840935
+2019-02-11 15:48:06,333 INFO o.a.j.JMeter: java.version=1.8.0_192
+2019-02-11 15:48:06,333 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-02-11 15:48:06,333 INFO o.a.j.JMeter: os.name=Mac OS X
+2019-02-11 15:48:06,334 INFO o.a.j.JMeter: os.arch=x86_64
+2019-02-11 15:48:06,334 INFO o.a.j.JMeter: os.version=10.12.6
+2019-02-11 15:48:06,334 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-02-11 15:48:06,334 INFO o.a.j.JMeter: Max memory     =1908932608
+2019-02-11 15:48:06,334 INFO o.a.j.JMeter: Available Processors =4
+2019-02-11 15:48:06,339 INFO o.a.j.JMeter: Default Locale=English (United States)
+2019-02-11 15:48:06,339 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2019-02-11 15:48:06,339 INFO o.a.j.JMeter: JMeterHome=/Users/jasandov/Development/java/apache-jmeter-5.0
+2019-02-11 15:48:06,339 INFO o.a.j.JMeter: user.dir  =/Users/jasandov/Development/docker/docker-jmeter-cluster-public
+2019-02-11 15:48:06,340 INFO o.a.j.JMeter: PWD       =/Users/jasandov/Development/docker/docker-jmeter-cluster-public
+2019-02-11 15:48:06,343 INFO o.a.j.JMeter: IP: 192.168.1.8 Name: jasandov014444.starbucks.net FullName: 192.168.1.8
+2019-02-11 15:48:09,223 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2019-02-11 15:48:09,251 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2019-02-11 15:48:09,251 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2019-02-11 15:48:09,385 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-02-11 15:48:10,436 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-02-11 15:48:10,436 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-02-11 15:48:11,600 INFO o.j.r.JARSourceHTTP: Found cached repo
+2019-02-11 15:48:11,882 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, blazemeter-debugger=0.6, jpgc-functions=2.1, jpgc-casutg=2.6, jpgc-dummy=0.2, jpgc-ffw=2.0, jpgc-httpraw=0.1, bzm-http2=1.4, jpgc-fifo=0.2, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-webdriver=3.0, jpgc-tst=2.5, websocket-sampler=1.0.2-SNAPSHOT, jmeter-core=5.0, jmeter-ftp=5.0, jmeter-http=5.0, jmeter-jdbc=5.0, jmeter-jms=5.0, jmeter-junit=5.0, jmeter-java=5.0, jmeter-ldap=5.0, jmeter-mail=5.0, jmeter-mongodb=5.0, jmeter-native=5.0, jmeter-tcp=5.0, jmeter-components=5.0, jpgc-standard=2.0]
+2019-02-11 15:48:13,873 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-11 15:48:13,873 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-11 15:48:13,873 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-11 15:48:13,873 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-02-11 15:48:13,874 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-02-11 15:48:13,874 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-02-11 15:48:13,935 WARN o.a.j.u.JMeterUtils: no icon for toolbar/19x19arrow-right-3.png
+2019-02-11 15:48:13,939 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-02-11 15:48:13,939 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-02-11 15:48:13,939 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-02-11 15:48:13,939 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-02-11 15:48:15,239 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-02-11 15:48:15,239 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/jasandov/Development/java/apache-jmeter-5.0/bin/proxyserver.jks
+2019-02-11 15:48:15,390 INFO o.a.j.s.FileServer: Default base='/Users/jasandov/Development/docker/docker-jmeter-cluster-public'
+2019-02-11 15:48:23,718 INFO o.a.j.g.a.Load: Loading file: /Users/jasandov/Development/docker/docker-jmeter-cluster-public/scripts/test_goal.jmx
+2019-02-11 15:48:23,718 INFO o.a.j.s.FileServer: Set new base='/Users/jasandov/Development/docker/docker-jmeter-cluster-public/scripts'
+2019-02-11 15:48:23,867 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-02-11 15:48:23,872 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-02-11 15:48:23,874 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-02-11 15:48:23,877 INFO o.a.j.s.SaveService: Loading file: /Users/jasandov/Development/docker/docker-jmeter-cluster-public/scripts/test_goal.jmx
+2019-02-11 15:48:24,011 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2019-02-11 15:48:24,159 INFO o.a.j.s.FileServer: Set new base='/Users/jasandov/Development/docker/docker-jmeter-cluster-public/scripts'
+2019-02-11 15:49:49,120 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 15:49:49,125 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 15:49:49,125 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 15:49:49,166 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 15:49:49,496 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 15:49:49,496 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 15:49:49,496 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 15:49:49,496 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 15:49:49,504 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 15:49:49,505 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 15:49:49,506 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 15:49:50,012 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 15:49:56,500 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:49:57,635 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:49:58,963 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 15:49:58,964 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 15:50:00,200 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:50:01,197 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:50:02,211 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 15:50:02,212 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 15:50:02,288 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 15:50:02,289 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 15:52:13,326 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 15:52:13,330 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 15:52:13,351 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 15:52:14,097 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 15:52:14,097 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 15:52:14,097 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 15:52:14,098 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 15:52:14,106 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 15:52:14,106 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 15:52:14,166 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 15:52:14,667 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 15:52:15,503 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = jasandov014444.starbucks.net
+2019-02-11 15:52:15,511 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-02-11 15:52:15,707 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2019-02-11 15:52:15,709 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-02-11 15:52:15,709 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-02-11 15:52:15,770 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2019-02-11 15:52:15,771 INFO o.a.j.u.SSLManager: KeyStore created OK
+2019-02-11 15:52:15,771 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2019-02-11 15:52:16,078 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:52:17,681 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:52:18,395 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 15:52:18,395 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 15:52:19,660 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:52:20,736 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:52:21,274 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 15:52:21,274 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 15:52:21,339 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 15:52:21,339 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 15:52:35,696 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 15:52:35,697 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 15:52:35,709 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 15:52:36,008 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 15:52:36,008 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 15:52:36,008 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 15:52:36,008 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 15:52:36,013 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 15:52:36,013 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 15:52:36,016 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 15:52:36,518 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 15:52:37,394 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:52:38,292 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:52:38,840 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 15:52:38,841 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 15:52:39,935 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:52:40,852 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:52:41,248 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 15:52:41,248 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 15:52:41,317 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 15:52:41,319 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 15:52:57,876 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 15:52:57,877 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 15:52:57,879 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 15:52:58,011 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 15:52:58,011 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 15:52:58,011 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 15:52:58,012 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 15:52:58,016 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 15:52:58,017 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 15:52:58,017 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 15:52:58,519 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 15:52:59,404 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:53:00,245 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:53:00,753 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 15:53:00,753 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 15:53:01,777 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:53:02,665 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:53:03,167 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 15:53:03,167 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 15:53:03,239 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 15:53:03,239 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 15:53:45,110 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 15:53:45,111 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 15:53:45,113 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 15:53:45,353 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 15:53:45,354 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 15:53:45,354 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 15:53:45,354 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 15:53:45,356 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 15:53:45,358 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 15:53:45,358 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 15:53:45,860 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 15:53:46,607 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:53:47,589 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:53:48,204 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 15:53:48,204 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 15:53:49,508 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:53:50,454 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 15:53:50,867 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 15:53:50,867 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 15:53:50,933 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 15:53:50,933 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 15:58:16,682 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 15:58:16,686 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 15:58:16,690 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 15:58:17,108 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 15:58:17,108 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 15:58:17,109 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 15:58:17,109 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 15:58:17,111 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 15:58:17,115 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 15:58:17,115 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 15:58:17,617 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 15:58:18,526 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:58:18,669 ERROR c.g.j.p.w.s.WebDriverSampler: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'jasandov014444.starbucks.net', ip: 'fe80:0:0:0:cc8:373d:cf7a:a9dc%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_192'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628388 (4a34a70827ac54..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:44471}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(system), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.81, webStorageEnabled: true, webdriver.remote.sessionid: 451d155bf6311b865b1c69c250d...}
+Session ID: 451d155bf6311b865b1c69c250d77c2e
+2019-02-11 15:58:18,670 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 15:58:18,670 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 15:58:19,975 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 15:58:20,085 ERROR c.g.j.p.w.s.WebDriverSampler: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.9.125-linuxkit x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'jasandov014444.starbucks.net', ip: 'fe80:0:0:0:cc8:373d:cf7a:a9dc%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_192'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628388 (4a34a70827ac54..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:33249}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(system), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.81, webStorageEnabled: true, webdriver.remote.sessionid: 5a9d39d5f87815928933c1ffca1...}
+Session ID: 5a9d39d5f87815928933c1ffca1cc4e9
+2019-02-11 15:58:20,085 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 15:58:20,086 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 15:58:20,166 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 15:58:20,166 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:01:56,288 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:01:56,292 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:01:56,295 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:01:56,646 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:01:56,646 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:01:56,646 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:01:56,646 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:01:56,650 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:01:56,650 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:01:56,649 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:01:57,155 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:01:57,868 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:20:16 Expected an operand but found error
+WDS.browser.get(`bi-webapps-cert.starbucks.net/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 20 at column number 16
+2019-02-11 16:01:57,869 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:01:57,869 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:01:58,917 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:20:16 Expected an operand but found error
+WDS.browser.get(`bi-webapps-cert.starbucks.net/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 20 at column number 16
+2019-02-11 16:01:58,917 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:01:58,917 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:01:58,980 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:01:58,981 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:03:08,538 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:03:08,539 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:03:08,540 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:03:08,736 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:03:08,736 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:03:08,736 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:03:08,736 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:03:08,739 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:03:08,739 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:03:08,739 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:03:09,241 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:03:09,959 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:23:16 Expected an operand but found error
+WDS.browser.get(`bi-webapps-cert.starbucks.net/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 23 at column number 16
+2019-02-11 16:03:09,960 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:03:09,960 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:03:11,552 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:23:16 Expected an operand but found error
+WDS.browser.get(`bi-webapps-cert.starbucks.net/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 23 at column number 16
+2019-02-11 16:03:11,555 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:03:11,555 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:03:11,620 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:03:11,621 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:04:06,842 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:04:06,843 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:04:06,844 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:04:06,982 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:04:06,982 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:04:06,982 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:04:06,983 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:04:06,990 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:04:06,991 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:04:06,991 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:04:07,495 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:04:08,512 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:23:16 Expected an operand but found error
+WDS.browser.get(`https://bi-webapps-cert.starbucks.net/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 23 at column number 16
+2019-02-11 16:04:08,513 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:04:08,513 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:04:09,973 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:23:16 Expected an operand but found error
+WDS.browser.get(`https://bi-webapps-cert.starbucks.net/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 23 at column number 16
+2019-02-11 16:04:09,973 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:04:09,973 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:04:10,036 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:04:10,036 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:06:19,620 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:06:19,624 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:06:19,626 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:06:19,962 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:06:19,962 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:06:19,963 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:06:19,963 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:06:19,976 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:06:19,979 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:06:19,983 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:06:20,488 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:06:21,285 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:19:16 Expected an operand but found error
+WDS.browser.get(`https://bi-webapps-cert/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 19 at column number 16
+2019-02-11 16:06:21,286 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:06:21,286 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:06:22,757 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:19:16 Expected an operand but found error
+WDS.browser.get(`https://bi-webapps-cert/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 19 at column number 16
+2019-02-11 16:06:22,757 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:06:22,757 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:06:22,902 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:06:22,903 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:07:02,171 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:07:02,172 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:07:02,173 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:07:02,332 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:07:02,332 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:07:02,332 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:07:02,333 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:07:02,334 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:07:02,338 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:07:02,339 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:07:02,839 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:07:03,733 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:19:16 Expected an operand but found error
+WDS.browser.get(`https://bi-webapps-cert/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 19 at column number 16
+2019-02-11 16:07:03,733 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:07:03,733 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:07:05,226 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:19:16 Expected an operand but found error
+WDS.browser.get(`https://bi-webapps-cert/splash/nadecisioncenter.html/`);
+                ^ in <eval> at line number 19 at column number 16
+2019-02-11 16:07:05,226 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:07:05,226 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:07:05,292 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:07:05,292 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:07:30,943 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:07:30,943 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:07:30,943 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:07:31,048 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:07:31,048 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:07:31,048 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:07:31,048 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:07:31,051 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:07:31,052 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:07:31,052 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:07:31,556 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:07:32,611 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:07:33,589 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:07:34,323 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:07:34,323 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:07:35,963 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:07:38,100 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:07:38,591 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:07:38,591 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:07:38,660 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:07:38,661 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:07:42,021 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:07:42,021 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:07:42,022 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:07:42,137 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:07:42,137 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:07:42,137 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:07:42,137 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:07:42,138 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:07:42,141 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:07:42,141 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:07:42,642 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:07:43,570 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:07:44,603 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:07:45,261 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:07:45,262 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:07:46,527 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:07:47,394 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:07:48,042 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:07:48,042 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:07:48,123 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:07:48,123 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:08:11,739 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:08:11,740 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:08:11,741 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:08:11,866 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:08:11,867 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:08:11,867 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:08:11,867 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:08:11,870 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:08:11,872 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:08:11,872 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:08:12,377 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:08:13,449 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:08:14,601 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:08:15,166 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:08:15,166 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:08:16,553 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:08:17,540 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:08:18,203 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:08:18,203 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:08:18,270 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:08:18,271 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:12:12,272 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:12:12,276 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:12:12,279 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:12:12,685 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:12:12,685 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:12:12,685 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:12:12,685 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:12:12,687 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:12:12,688 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:12:12,688 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:12:13,196 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:12:14,112 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:8:7 Expected ; but found -
+var uri-to-test = domain + '/' +  path + '/'; 
+       ^ in <eval> at line number 8 at column number 7
+2019-02-11 16:12:14,112 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:12:14,112 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:12:15,333 ERROR c.g.j.p.w.s.WebDriverSampler: <eval>:8:7 Expected ; but found -
+var uri-to-test = domain + '/' +  path + '/'; 
+       ^ in <eval> at line number 8 at column number 7
+2019-02-11 16:12:15,334 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:12:15,334 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:12:15,402 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:12:15,402 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:12:40,224 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:12:40,225 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:12:40,227 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:12:40,382 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:12:40,382 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:12:40,382 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:12:40,382 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:12:40,384 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:12:40,385 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:12:40,386 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:12:40,888 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:12:41,808 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:12:43,215 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:12:43,666 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:12:43,666 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:12:45,069 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:12:46,948 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:12:47,514 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:12:47,514 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:12:47,587 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:12:47,587 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:14:38,716 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:14:38,717 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:14:38,718 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:14:39,102 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:14:39,102 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:14:39,102 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:14:39,102 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:14:39,116 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:14:39,123 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:14:39,123 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:14:39,625 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:14:40,363 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:14:41,274 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:14:41,769 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-1
+2019-02-11 16:14:41,769 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-1
+2019-02-11 16:14:42,954 INFO c.g.j.p.w.s.WebDriverSampler: Sample started
+2019-02-11 16:14:43,850 INFO c.g.j.p.w.s.WebDriverSampler: Sample ended - navigated to Splash Page
+2019-02-11 16:14:44,315 INFO o.a.j.t.JMeterThread: Thread is done: Main Thread 1-2
+2019-02-11 16:14:44,315 INFO o.a.j.t.JMeterThread: Thread finished: Main Thread 1-2
+2019-02-11 16:14:44,382 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-02-11 16:14:44,382 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-02-11 16:17:10,509 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-02-11 16:17:10,513 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-02-11 16:17:10,515 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2019-02-11 16:17:10,993 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Main Thread
+2019-02-11 16:17:10,993 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group Main Thread.
+2019-02-11 16:17:10,993 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-02-11 16:17:10,993 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=2 ramp-up=1 perThread=500.0 delayedStart=false
+2019-02-11 16:17:11,010 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-02-11 16:17:11,011 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-02-11 16:17:11,011 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-1
+2019-02-11 16:17:11,515 INFO o.a.j.t.JMeterThread: Thread started: Main Thread 1-2
+2019-02-11 16:17:18,153 INFO o.a.j.g.a.Start: Stopping test
+2019-02-11 16:17:18,196 INFO o.a.j.t.JMeterThread: Stopping: Main Thread 1-1
+2019-02-11 16:17:18,197 INFO o.a.j.t.JMeterThread: Stopping: Main Thread 1-2
+2019-02-11 16:17:23,221 WARN o.a.j.t.ThreadGroup: Thread won't exit: Forwarding newSession on session null to remote
